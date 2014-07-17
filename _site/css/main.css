@@ -9,18 +9,17 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Arvo', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #fdfdfd;
+  background-color: #F5F5F5;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #2a7ae2; text-decoration: none; }
+a         { color: #6991AC; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
 
 /* Utility */
 
@@ -41,10 +40,10 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: 6px solid #6991AC;
+  border-bottom: 1px solid #C3D7DF;
   min-height: 56px;
-  background-color: white;
+  background-color: #F5F5F5;
 }
 
 .site-title,
@@ -76,7 +75,7 @@ a:visited { color: #205caa; }
 /* Site footer */
 
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #C3D7DF;
   padding: 30px 0;
 }
 
